@@ -96,6 +96,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
+  pointer-events: none;
   background:
     radial-gradient(900px 500px at 12% -8%, rgba(109, 124, 255, 0.14), transparent 60%),
     radial-gradient(800px 520px at 95% 8%, rgba(160, 109, 255, 0.12), transparent 60%),
@@ -1350,6 +1351,7 @@ mark.better {
   gap: 10px;
   z-index: 500;
   max-width: min(380px, calc(100vw - 40px));
+  pointer-events: none;
 }
 
 .toast {
